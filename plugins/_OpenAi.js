@@ -1,5 +1,3 @@
-const { Configuration, OpenAIApi } from "openai";
-let handler = async (m, { conn, text }) => {
 if (!text) throw "[!] Masukkan teks."
 const configuration = new Configuration({
     apiKey: "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"
