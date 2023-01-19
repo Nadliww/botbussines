@@ -1,4 +1,4 @@
-import { Configuration, OpenAIApi } from "openai";
+const { Configuration, OpenAIApi } = require("openai");
 let handler = async (m, { conn, text }) => {
 if (!text) throw "[!] Masukkan teks."
 const configuration = new Configuration({
