@@ -2,7 +2,7 @@ let handler = async m => {
 
 let krtu = `web`
 m.reply(`
-> http://youtube.com/@ZenssCuyy
+> http://github.com
 `.trim()) 
 }
 handler.command = /^(web)$/i
