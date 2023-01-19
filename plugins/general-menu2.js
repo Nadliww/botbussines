@@ -196,11 +196,11 @@ await conn.send3ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/34
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
               title: 'ʙᴏᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ᴍᴜʟᴛɪ ᴀᴜᴛʜ',  
-              body: '© Zenss', 
-              description: ' 𝑺𝒉𝒆𝒏𝒉𝒆-𝑴𝑫 ♡ 𝒁𝒆𝒏𝒔𝒔𝑪𝒖𝒚𝒚 䆮', 
+              body: '© Nadliww', 
+              description: ' Haruka-Bot', 
               mediaType: 2,  
             thumbnail: await (await fetch('https://telegra.ph/file/00faf159ce0349901eaf3.jpg')).buffer(), 
-           mediaUrl: `https://www.youtube.com/@ZenssCuyy` 
+           mediaUrl: `https://www.youtube.com/` 
           }  
        }  
       })
