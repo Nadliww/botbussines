@@ -6,12 +6,12 @@ let handler = async (m, { conn, usedPrefix }) => {
       requestFrom: m.sender,
       noteMessage: {
       extendedTextMessage: {
-      text: `Untuk Menghindari Admin Group Marah:'v Silahkan Cek Chat Private Bot Untuk Link Group ZenssCuyy`,
+      text: `Untuk Menghindari Admin Group Marah:'v Silahkan Cek Chat Private Bot Untuk Link Group Squad +62`,
       contextInfo: {
       externalAdReply: {
       showAdAttribution: true
       }}}}}}, {})
-      conn.reply(m.sender, `Group Zenss : https://chat.whatsapp.com/LJsK2qecGOeKCfc97giQFB`, m)
+      conn.reply(m.sender, `Group Squad +62 : https://chat.whatsapp.com/`, m)
 }
 handler.help = ['gcbot']
 handler.tags = ['main', 'new']
